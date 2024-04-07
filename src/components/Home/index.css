@@ -1,0 +1,68 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.name-qn {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.details {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.qns-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.each-qn {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  color: #9aa5b1;
+  margin-left: 100px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  width: 100%;
+  border: -1px solid #9aa5b1;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
